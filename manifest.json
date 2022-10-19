@@ -1,0 +1,19 @@
+{
+"name":" Get title ",
+"description": "show the title of the current webpage",
+"version":"1.0.0",
+"manifest_version":3,
+"action":{
+"default_popup":"popup.html",
+"default_icon":"img.png"
+
+},
+"permissions":[
+ "storage",
+ "activeTab",
+ "scripting",
+ "tabs"
+
+
+]
+}
